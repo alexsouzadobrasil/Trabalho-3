@@ -1,0 +1,5 @@
+package fatecosasco.banco;
+
+public class Conta {
+
+}

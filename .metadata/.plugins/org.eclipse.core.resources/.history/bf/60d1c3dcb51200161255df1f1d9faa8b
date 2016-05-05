@@ -1,0 +1,15 @@
+package fatecosasco.empresa;
+
+public class Rh {
+	// metodo que contrata os funcionarios
+	public Funcionario Contratar(Formulario form) {
+		// implementar
+		return null;
+	}
+
+	// metodo que paga os funcionarios
+	public void pagar() {
+		// implementar
+
+	}
+}

@@ -1,0 +1,54 @@
+package fatecosasco.banco;
+
+public class Conta {
+	// numero da conta
+	private long numero;
+	// saldo da conta
+	private double saldo;
+
+	// retorna numero
+	public long getNumero() {
+		return numero;
+	}
+
+	// seta numero
+	public void setNumero(long numero) {
+		this.numero = numero;
+	}
+
+	// retorna saldo
+	public double getSaldo() {
+		return saldo;
+	}
+
+	// seta saldo
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	// metodo depositar
+	public void depositar(double valor) {
+		this.saldo += valor;
+
+	}
+
+	// metodo transfirir
+	public boolean sacar(double valor) {
+		// se houver saldo
+		if (this.saldo > valor) {
+			this.saldo -= valor;
+			return true;
+		} else {
+			System.out.println(" Saldo Insuficiente");
+			return false;
+		}
+	}
+
+	public void transferir(Conta dest, double valor) {
+		if (sacar(valor)) {
+			dest.depositar(valor);
+		} else {
+			System.out.println(" Não foi possivel transferir o valor desejado!");
+		}
+	}
+}

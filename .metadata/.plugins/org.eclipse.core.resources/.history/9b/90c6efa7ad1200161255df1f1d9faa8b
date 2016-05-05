@@ -1,0 +1,11 @@
+package fatecosasco.empresa;
+
+public  class Formulario {
+	
+	private String cargo;
+private double comissao;
+private String cpf;
+private String nome;
+private double salario;
+
+}

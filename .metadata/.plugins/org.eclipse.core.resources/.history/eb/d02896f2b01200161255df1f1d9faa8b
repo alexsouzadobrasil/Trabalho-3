@@ -1,0 +1,16 @@
+package fatecosasco.empresa;
+
+public class Repositor extends Funcionario {
+
+	public Repositor(long matricula, String nome) {
+		super(matricula, nome);
+		// impplementar
+	}
+
+	@Override
+	public void trabalhar() {
+		// implementar
+		
+	}
+
+}

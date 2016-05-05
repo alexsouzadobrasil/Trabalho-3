@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="fatecosasco.banco.Conta"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="fatecosasco.empresa.Funcionario"/>
+<fullyQualifiedTypeName name="fatecosasco.empresa.Gerente"/>
+<fullyQualifiedTypeName name="fatecosasco.empresa.Repositor"/>
+</qualifiedTypeNameHistroy>

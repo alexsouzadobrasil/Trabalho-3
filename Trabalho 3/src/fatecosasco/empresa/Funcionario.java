@@ -1,0 +1,69 @@
+package fatecosasco.empresa;
+
+import java.util.Observable;
+
+import fatecosasco.banco.Conta;
+
+public abstract class Funcionario extends Observable{
+
+	// variaveis -----------------
+	// variaveis
+	// --------------------------------------------------------------------
+	private Conta conta;
+	private double comissao;
+	private String cpf;
+	private long matricula;
+	private String nome;
+	private double salario;
+
+	// metodos
+	// acessores------------------------------------------------------------
+
+	public double getComissao() {
+		return comissao;
+	}
+
+	public void setComissao(double comissao) {
+		this.comissao = comissao;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+	public void setMatricula(long matricula) {
+		this.matricula = matricula;
+	}
+
+	public double getMatricula() {
+		return matricula;
+	}
+
+	/// metodo Construtor----------------------------------
+	public Funcionario(long matricula, String nome) {
+		this.setNome(nome);
+		this.setMatricula(matricula);
+	}
+
+	public abstract void trabalhar();
+}

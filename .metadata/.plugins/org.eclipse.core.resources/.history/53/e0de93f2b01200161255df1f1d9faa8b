@@ -1,0 +1,16 @@
+package fatecosasco.empresa;
+
+public class Vendedor extends Funcionario {
+
+	public Vendedor(long matricula, String nome) {
+		super(matricula, nome);
+		// implementar
+	}
+
+	@Override
+	public void trabalhar() {
+		// implementar
+		
+	}
+
+}
